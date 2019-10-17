@@ -1,0 +1,13 @@
+body { background: #e6f7ff; }
+.slidebar { background: #fff; width: 200px; height:450px; 
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 8px; float: left; position: fixed; }
+.slidebar .logo2 { text-align: center; }
+.slidebar img { width:110px; height:110px; margin-top:20px; margin-bottom: 10px; }
+.slidebar ul{ list-style-type: none; background-color: rgb(138,205,253) ; }
+.slidebar ul li:hover{background:rgb(92, 124, 228);}
+.slidebar ul li { height:70px; line-height:70px; margin-left:0px; text-align: center; }
+.slidebar ul li:nth-child(-n+3) { border-bottom:2px solid white; }
+
+.slidebar .fliter{border-top: 0px solid #ddd; padding:0%;}
+body,ul,h1{ margin: 0; padding: 10%;}
