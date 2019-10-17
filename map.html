@@ -8,7 +8,26 @@
         <link rel = "stylesheet" href = "css/map.css">
     </head>
 
-    <body>
+    <body>        
+        <div class ="wraper">
+            <div class = "slidebar">
+                <div class = "logo2">
+                    <img class = "logo" src = "img/DreamWiki.png">
+                </div> <!-- logo2 -->
+                
+                <ul class = "fliter">
+                    <li><a href = "#">Job</a></li>
+                    <li><a href = "#">Job Experience</a></li>
+                    <li><a href = "#">News</a></li>
+                    <li><a href = "#">Information</a></li>
+                </ul> 
+            </div> <!-- slidebar -->
+        </div> <!-- wrapper -->  
+
+            <div id="map" style="width:900px; height:600px;"></div>
+
+        
+
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=368715e4875c6e2ca801fa57acbe080f"></script>
         <script>
         var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
@@ -54,24 +73,5 @@
             yAnchor: 1 
         });
         </script>
-        
-        <div class ="wraper">
-            <div class = "slidebar">
-                <div class = "logo2">
-                    <img class = "logo" src = "img/DreamWiki.png">
-                </div> <!-- logo2 -->
-                
-                <ul class = "fliter">
-                    <li><a href = "#">Job</a></li>
-                    <li><a href = "#">Job Experience</a></li>
-                    <li><a href = "#">News</a></li>
-                    <li><a href = "#">Information</a></li>
-                </ul> 
-            </div> <!-- slidebar --> 
-
-            <div id="map" style="right: 100px; width:900px; height:600px;"></div>
-
-        </div> <!-- wrapper --> 
-
     </body>
 </html>
