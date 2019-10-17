@@ -1,4 +1,43 @@
-body { background: #e6f7ff; }
+body{ background: #e6f7ff; }
+
+h1{ padding:-40px; }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;  
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
 .slidebar { background: #fff; width: 200px; height:450px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px; float: left; position: fixed; }
@@ -12,29 +51,4 @@ body { background: #e6f7ff; }
 .slidebar .fliter{border-top: 0px solid #ddd; padding:0%;}
 body,ul,h1{ margin: 0; padding: 10%;}
 .wraper{ margin: -130px auto;}
-a{text-decoration: none; font-size: 16px; color:black; }
-.title{ background-color: #e2e0e0;
-        height: 80px;
-        line-height: 80px;
-        border-bottom: 2px solid #ddd;
-        position: relative;
-        color: #333;
-        padding-left: 130px;
-        margin-bottom: 20px;
-    }
-div.polaroid {
-        float: right;
-        width: 80%;
-        background-color: white;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 50px;
-        border-radius: 8px;
-    }
-div.container {
-        text-align: center;
-        padding: 10px 20px;
-        border-radius: 8px;
-      }
-div.polaroid:hover{
-    opacity: 0.7;
-}
+a{text-decoration: none; }

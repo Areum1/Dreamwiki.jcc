@@ -1,0 +1,4 @@
+.info { position: relative; left:15%; text-align: center; padding-top:40px;}
+.info .teamimg { border: 5px solid #8edbff; border-radius: 200px; width:200px; height:200px; margin-right:40px;}
+.info .sns{ width:60px; height:60px; margin-right:10px; }
+.info .ysns { width:60px; height:60px; margin-right:40px; }
