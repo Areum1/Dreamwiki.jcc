@@ -1,0 +1,45 @@
+img { width:40%; float:left; margin-top:20px; margin-right:20%; position: fixed;}  /*left:0; position:fixed;*/
+
+
+.profile{
+    padding: 5%; 
+    margin-bottom: 10vh;
+    margin-left:40%;
+}
+.profile-title{
+    font-size: 35px;
+    line-height: 1.5em; 
+    font-style: italic;
+}
+.job{
+    display: inline-block;
+    vertical-align: top;
+    height: 1.5em;
+    overflow: hidden;
+    position: relative;
+}
+@keyframes rotate{
+    0% {
+        transform: translateY(0);                                                                                                                                   
+    }
+    25% {
+        transform: translateY(-20%);
+    }
+    50% {
+        transform: translateY(-40%);
+    }
+    75% {
+        transform: translateY(-60%);
+    }
+    100% {
+        transform: translateY(-80%);
+    }
+}
+.job-list{
+    color: rgb(10, 10, 10);
+    padding-right: 1em;
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
