@@ -12,7 +12,6 @@ body { background: #e6f7ff; }
 .slidebar .fliter{border-top: 0px solid #ddd; padding:0%;}
 body,ul,h1{ margin: 0; padding: 10%;}
 
-#map {position:fixed; width:900px;height:600px; float:right; }
 
 .customoverlay {position:relative;bottom:85px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
 .customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
