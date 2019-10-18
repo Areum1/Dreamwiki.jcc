@@ -1,31 +1,58 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>정보보호 전문가</title>
-        <link rel="shortcut icon" type="image/x-icon" href="https://images.emojiterra.com/mozilla/512px/1f319.png">
+        
         <style>
-                .bg-image {
-                  background-image: url("img/정보 보안.jpg");                
-                  filter: blur(8px);
-                  -webkit-filter: blur(8px);             
-                  height: 100%; 
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  background-size: cover;
-                }
-                </style>
-    </head>
-    <link rel = "stylesheet" href = "css/Pro_back.css">
-    <body>
-            <div class="bg-image"></div>
+            .bg-image {
+                background-image: url("file:///D:/%EC%A7%80%EC%9A%B0%EC%A7%80%EB%A7%88/dream_wiki-master/img/%EC%A0%95%EB%B3%B4%20%EB%B3%B4%EC%95%88.jpg");
+                filter: blur(8px);
+                -webkit-filter: blur(8px);             
+                height: 100%; 
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
 
-            <div class="bg-text">
-              <h1 style="font-size:50px">정보보호 전문가</h1>
-              <h3>[적성 및 흥미]</h3>
-              <p> 논리적인 사고 능력, 호기심이 많고 깊게 탐구하는 과정을 즐기는 사람에게 적합함.</p>
-              
-              <h3>[관련 자격증]</h3>
-              <p> 정보처리기사, 정보보안기사 </p>
-            </div>
+            body, html {
+                height: 100%;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
             
+            * {
+                box-sizing: border-box;
+            }
+            .bg-text {
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0, 0.4); 
+                color: white;
+                font-weight: bold;
+                border: 3px solid #f1f1f1;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 2;
+                width: 90%;
+                padding: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <link rel = "stylesheet" href = "css/pro.css">
+
+    <body>
+        <div class="bg-image"></div>
+
+        <div class="bg-text">
+            <h1 style = "font-size:50px;">정보보호 개발자</h1>
+            <h3>[적성 및 흥미]</h3>
+            <p>논리적인 사고 능력, 호기심이 많고 깊게 탐구하는 과정을 즐기는 사람에게 적합함</p>
+        
+            <h3>[관련 자격증]</h3>
+            <p>정보처리기사, 정보보안기사</p>
+        </div>
     </body>
 </html>
