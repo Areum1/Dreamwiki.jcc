@@ -1,12 +1,16 @@
-img { width:40%; float:left; margin-top:20px; margin-right:20%; position: fixed;}  /*left:0; position:fixed;*/
+body { padding:0px; background: #e6f7ff; }
 
+img { width:40%; padding:0px; position: fixed;}  /*left:0; position:fixed;*/
+
+br { width:10px; }
 
 .profile{
-    padding: 5%; 
+    padding:3%;
     margin-bottom: 10vh;
     margin-left:40%;
 }
-.profile-title{
+.profile-title{    
+    margin-top:-50px;
     font-size: 35px;
     line-height: 1.5em; 
     font-style: italic;
@@ -36,10 +40,12 @@ img { width:40%; float:left; margin-top:20px; margin-right:20%; position: fixed;
     }
 }
 .job-list{
-    color: rgb(10, 10, 10);
+    color: rgb(47, 107, 247);
     padding-right: 1em;
     animation-name: rotate;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
+.job-list li { list-style:none; }
 
+.text { font-size: 16pt; }
