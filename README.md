@@ -1,6 +1,9 @@
 # Dream Wiki Web Site
 미림 소프트웨어 챌린지 2019 - 출발드림팀📚
 
+## 체험해보기
+[https://areum1.github.io/Dreamwiki_jcc/](https://areum1.github.io/Dreamwiki_jcc/)
+
 ### 웹사이트 이미지
 <div>
 <img src ="https://user-images.githubusercontent.com/48716298/71766617-22201c00-2f45-11ea-92fd-118acdf4b219.PNG" width="280"></img>   
