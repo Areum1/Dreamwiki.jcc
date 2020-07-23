@@ -3,7 +3,7 @@
 미림 소프트웨어 챌린지 2019 - 출발드림팀📚
 
 ## 체험해보기
-[https://areum1.github.io/Dreamwiki_jcc/](https://areum1.github.io/Dreamwiki_jcc/)
+[https://areumsheep.github.io/Dreamwiki_jcc/](https://areumsheep.github.io/Dreamwiki_jcc/)
 
 ### 웹사이트 이미지
 <div>
